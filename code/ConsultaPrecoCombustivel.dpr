@@ -3,12 +3,12 @@ program ConsultaPrecoCombustivel;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  U_Principal in 'U_Principal.pas' {Form2};
+  U_Principal in 'U_Principal.pas' {F_Principal};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TF_Principal, F_Principal);
   Application.Run;
 end.

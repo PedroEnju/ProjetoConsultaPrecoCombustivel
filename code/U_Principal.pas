@@ -8,7 +8,7 @@ uses
   FMX.MultiView, FMX.StdCtrls, FMX.Controls.Presentation;
 
 type
-  TForm2 = class(TForm)
+  TF_Principal = class(TForm)
     ToolBar1: TToolBar;
     Label1: TLabel;
     MultiView1: TMultiView;
@@ -29,7 +29,7 @@ type
   end;
 
 var
-  Form2: TForm2;
+  F_Principal: TF_Principal;
 
 implementation
 

@@ -315,7 +315,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="U_Principal.pas">
-            <Form>Form2</Form>
+            <Form>F_Principal</Form>
             <FormType>fmx</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
